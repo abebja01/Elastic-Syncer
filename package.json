@@ -1,0 +1,20 @@
+{
+  "name": "Sync Mongo and Sql into ElasticSearch",
+  "version": "1.0.0",
+  "description": "App to index data from Sql Server and MongoDb databse to elastic an elastic cluster",
+  "main": "mongoToElastic.js",
+  "scripts": {
+    "mongoToElastic": "node src/mongoToElastic",
+    "sqlToElastic": "node src/sqlToElastic"
+  },
+  "author": "Arlind Bebja",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "elasticsearch": "^13.2.0",
+    "fs": "0.0.1-security",
+    "mongodb": "^2.2.30",
+    "mssql": "^4.0.4"
+    
+  }
+}
